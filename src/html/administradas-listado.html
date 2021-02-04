@@ -1,0 +1,998 @@
+<!DOCTYPE html>
+<html lang="zxx" class="js">
+
+<head>
+    <base href="../">
+    <meta charset="utf-8">
+    <meta name="author" content="Softnio">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="A powerful and conceptual apps base dashboard template that especially build for developers and programmers.">
+    <!-- Fav Icon  -->
+    <link rel="shortcut icon" href="./images/favicon.png">
+    <!-- Page Title  -->
+    <title>Listado Administradas - socio.legal</title>
+    <!-- StyleSheets  -->
+    <link rel="stylesheet" href="./assets/css/dashlite.css?ver=2.2.0">
+    <link id="skin-default" rel="stylesheet" href="./assets/css/theme.css?ver=2.2.0">
+</head>
+
+<body class="nk-body bg-white npc-default has-aside ">
+    <div class="nk-app-root">
+        <!-- main @s -->
+        <div class="nk-main ">
+            <!-- wrap @s -->
+            <div class="nk-wrap ">
+                <div class="nk-header nk-header-fixed is-light">
+                    <div class="container-lg wide-xl">
+                        <div class="nk-header-wrap">
+                            <div class="nk-header-brand">
+                                <a href="html/index.html" class="logo-link">
+                                    <img class="logo-light logo-img" src="./images/logo.png" srcset="./images/logo2x.png 2x" alt="logo">
+                                    <img class="logo-dark logo-img" src="./images/logo-dark.png" srcset="./images/logo-dark2x.png 2x" alt="logo-dark">
+                                </a>
+                            </div><!-- .nk-header-brand -->
+                            <div class="nk-header-menu">
+                                <ul class="nk-menu nk-menu-main">
+                                    <li class="nk-menu-item">
+                                        <a href="html/index.html" class="nk-menu-link">
+                                            <span class="nk-menu-text">Panel</span>
+                                        </a>
+                                    </li><!-- .nk-menu-item -->
+                                    <li class="nk-menu-item has-sub">
+                                        <a href="#" class="nk-menu-link nk-menu-toggle">
+                                            <span class="nk-menu-text">Participadas</span>
+                                        </a>
+                                        <ul class="nk-menu-sub">
+                                            <li class="nk-menu-item">
+                                                <a href="html/participadas-cuadro.html" class="nk-menu-link"><span class="nk-menu-text">Cuadro Participadas</span></a>
+                                            </li>
+                                            <li class="nk-menu-item">
+                                                <a href="html/participadas-listado.html" class="nk-menu-link"><span class="nk-menu-text">Lista Participadas</span></a>
+                                            </li>
+                                            <li class="nk-menu-item">
+                                                <a href="html/participadas-kanban.html" class="nk-menu-link"><span class="nk-menu-text">Kanban Participadas</span></a>
+                                            </li>
+											
+                                        </ul><!-- .nk-menu-sub -->
+                                    </li><!-- .nk-menu-item -->
+									    <li class="nk-menu-item has-sub">
+                                        <a href="#" class="nk-menu-link nk-menu-toggle">
+                                            <span class="nk-menu-text">Administradas</span>
+                                        </a>
+                                        <ul class="nk-menu-sub">
+                                            <li class="nk-menu-item">
+                                                <a href="html/administradas-cuadro.html" class="nk-menu-link"><span class="nk-menu-text">Cuadro Administradas</span></a>
+                                            </li>
+                                            <li class="nk-menu-item">
+                                                <a href="html/administradas-listado.html" class="nk-menu-link"><span class="nk-menu-text">Lista Administradas</span></a>
+                                            </li>
+                                            <li class="nk-menu-item">
+                                                <a href="html/administradas-kanban.html" class="nk-menu-link"><span class="nk-menu-text">Kanban Administradas</span></a>
+                                            </li>
+											
+                                        </ul><!-- .nk-menu-sub -->
+                                    </li><!-- .nk-menu-item -->
+                                    
+                                </ul><!-- .nk-menu -->
+                            </div><!-- .nk-header-menu -->
+                            <div class="nk-header-tools">
+								<ul class="nk-quick-nav">
+								<a href="html/components/forms/form-wizard.html" class="btn btn-outline-primary">Añadir Sociedad</a>
+                                    <li class="dropdown notification-dropdown">
+                                        <a href="#" class="dropdown-toggle nk-quick-nav-icon" data-toggle="dropdown">
+                                            <div class="icon-status icon-status-info"><em class="icon ni ni-bell"></em></div>
+                                        </a>
+                                        <div class="dropdown-menu dropdown-menu-xl dropdown-menu-right dropdown-menu-s1">
+                                            <div class="dropdown-head">
+                                                <span class="sub-title nk-dropdown-title">Notificaciones</span>
+                                                <a href="#">Marcar como leídas</a>
+                                            </div>
+                                            <div class="dropdown-body">
+                                                <div class="nk-notification">
+                                                    <div class="nk-notification-item dropdown-inner">
+                                                        <div class="nk-notification-icon">
+                                                            <em class="icon icon-circle bg-warning-dim ni ni-curve-down-right"></em>
+                                                        </div>
+                                                        <div class="nk-notification-content">
+                                                            <div class="nk-notification-text">You have requested to <span>Widthdrawl</span></div>
+                                                            <div class="nk-notification-time">2 hrs ago</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="nk-notification-item dropdown-inner">
+                                                        <div class="nk-notification-icon">
+                                                            <em class="icon icon-circle bg-success-dim ni ni-curve-down-left"></em>
+                                                        </div>
+                                                        <div class="nk-notification-content">
+                                                            <div class="nk-notification-text">Your <span>Deposit Order</span> is placed</div>
+                                                            <div class="nk-notification-time">2 hrs ago</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="nk-notification-item dropdown-inner">
+                                                        <div class="nk-notification-icon">
+                                                            <em class="icon icon-circle bg-warning-dim ni ni-curve-down-right"></em>
+                                                        </div>
+                                                        <div class="nk-notification-content">
+                                                            <div class="nk-notification-text">You have requested to <span>Widthdrawl</span></div>
+                                                            <div class="nk-notification-time">2 hrs ago</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="nk-notification-item dropdown-inner">
+                                                        <div class="nk-notification-icon">
+                                                            <em class="icon icon-circle bg-success-dim ni ni-curve-down-left"></em>
+                                                        </div>
+                                                        <div class="nk-notification-content">
+                                                            <div class="nk-notification-text">Your <span>Deposit Order</span> is placed</div>
+                                                            <div class="nk-notification-time">2 hrs ago</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="nk-notification-item dropdown-inner">
+                                                        <div class="nk-notification-icon">
+                                                            <em class="icon icon-circle bg-warning-dim ni ni-curve-down-right"></em>
+                                                        </div>
+                                                        <div class="nk-notification-content">
+                                                            <div class="nk-notification-text">You have requested to <span>Widthdrawl</span></div>
+                                                            <div class="nk-notification-time">2 hrs ago</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="nk-notification-item dropdown-inner">
+                                                        <div class="nk-notification-icon">
+                                                            <em class="icon icon-circle bg-success-dim ni ni-curve-down-left"></em>
+                                                        </div>
+                                                        <div class="nk-notification-content">
+                                                            <div class="nk-notification-text">Your <span>Deposit Order</span> is placed</div>
+                                                            <div class="nk-notification-time">2 hrs ago</div>
+                                                        </div>
+                                                    </div>
+                                                </div><!-- .nk-notification -->
+                                            </div><!-- .nk-dropdown-body -->
+                                            <div class="dropdown-foot center">
+                                                <a href="#">Ver todas</a>
+                                            </div>
+                                        </div>
+                                    </li><!-- .dropdown -->
+                                    <li class="dropdown user-dropdown">
+                                        <a href="#" class="dropdown-toggle mr-lg-n1" data-toggle="dropdown">
+                                            <div class="user-toggle">
+                                                <div class="user-avatar sm">
+                                                    <em class="icon ni ni-user-alt"></em>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <div class="dropdown-menu dropdown-menu-md dropdown-menu-right dropdown-menu-s1">
+                                            <div class="dropdown-inner user-card-wrap bg-lighter d-none d-md-block">
+                                                <div class="user-card">
+                                                    <div class="user-avatar">
+                                                        <span>MM</span>
+                                                    </div>
+                                                    <div class="user-info">
+                                                        <span class="lead-text">Martí Manent</span>
+                                                        <span class="sub-text">marti@derecho.com</span>
+                                                    </div>
+                                                    <div class="user-action">
+                                                        <a class="btn btn-icon mr-n2" href="html/perfil-seguridad.html"><em class="icon ni ni-setting"></em></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="dropdown-inner">
+                                                <ul class="link-list">
+                                                    <li><a href="html/perfil-mis-datos.html"><em class="icon ni ni-user-alt"></em><span>Mi perfil</span></a></li>
+                                                    <li><a href="html/perfil-seguridad.html"><em class="icon ni ni-setting-alt"></em><span>Configuración cuenta</span></a></li>
+													<li><a href="html/subscription/suscripcion-dashboard.html"><em class="icon ni ni-coin-eur"></em><span>Mi suscripción</span></a></li>
+													<li><a href="html/perfil-usuarios-acceso.html"><em class="icon ni ni-users"></em><span>Usuarios de la cuenta</span></a></li>
+                                                    <li><a class="dark-switch" href="#"><em class="icon ni ni-moon"></em><span>Modo nocturno</span></a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="dropdown-inner">
+                                                <ul class="link-list">
+                                                    <li><a href="#"><em class="icon ni ni-signout"></em><span>Salir</span></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </li><!-- .dropdown -->
+                                    <li class="d-lg-none">
+                                        <a href="#" class="toggle nk-quick-nav-icon mr-n1" data-target="sideNav"><em class="icon ni ni-menu"></em></a>
+                                    </li>
+                                </ul><!-- .nk-quick-nav -->
+                            </div><!-- .nk-header-tools -->
+                        </div><!-- .nk-header-wrap -->
+                    </div><!-- .container-fliud -->
+                </div>
+                <!-- main header @e -->
+                <!-- content @s -->
+                <div class="nk-content ">
+                    <div class="container wide-xl">
+                        <div class="nk-content-inner">
+                            <div class="nk-aside" data-content="sideNav" data-toggle-overlay="true" data-toggle-screen="lg" data-toggle-body="true">
+                                <div class="nk-sidebar-menu" data-simplebar>
+                                    <ul class="nk-menu nk-menu-main">
+                                        <li class="nk-menu-item has-sub">
+                                            <a href="#" class="nk-menu-link nk-menu-toggle">
+                                                <span class="nk-menu-text">Participadas</span>
+                                            </a>
+                                            <ul class="nk-menu-sub">
+                                                <li class="nk-menu-item">
+                                                    <a href="html/index.html" class="nk-menu-link"><span class="nk-menu-text">Cuadro de Participadas</span></a>
+                                                </li>
+                                                <li class="nk-menu-item">
+                                                    <a href="html/participadas-listado.html" class="nk-menu-link"><span class="nk-menu-text">Lista de Participadas</span></a>
+                                                </li>
+                                                <li class="nk-menu-item">
+                                                    <a href="html/participadas-kanban.html" class="nk-menu-link"><span class="nk-menu-text">Kanban Board</span><span class="nk-menu-badge badge-warning">New</span></a>
+                                                </li>
+												<li class="nk-menu-item">
+                                                    <a href="html/participadas-kanban.html" class="nk-menu-link"><span class="nk-menu-text">Añadir Sociedad</span><span class="nk-menu-badge badge-warning">New</span></a>
+                                                </li>
+                                            </ul><!-- .nk-menu-sub -->
+                                        </li><!-- .nk-menu-item -->
+										 <li class="nk-menu-item has-sub">
+                                            <a href="#" class="nk-menu-link nk-menu-toggle">
+                                                <span class="nk-menu-text">Administradas</span>
+                                            </a>
+                                            <ul class="nk-menu-sub">
+                                                <li class="nk-menu-item">
+                                                    <a href="html/administradas-cuadro.html" class="nk-menu-link"><span class="nk-menu-text">Cuadro de Administradas</span></a>
+                                                </li>
+                                                <li class="nk-menu-item">
+                                                    <a href="html/administradas-listado.html" class="nk-menu-link"><span class="nk-menu-text">Lista de Administradas</span></a>
+                                                </li>
+                                                <li class="nk-menu-item">
+                                                    <a href="html/administradas-kanban.html" class="nk-menu-link"><span class="nk-menu-text">Kanban Board</span><span class="nk-menu-badge badge-warning">New</span></a>
+                                                </li>
+												<li class="nk-menu-item">
+                                                    <a href="html/participadas-kanban.html" class="nk-menu-link"><span class="nk-menu-text">Añadir Administrada</span><span class="nk-menu-badge badge-warning">New</span></a>
+                                                </li>
+                                            </ul><!-- .nk-menu-sub -->
+                                        </li><!-- .nk-menu-item -->
+                                        <li class="nk-menu-item">
+                                            <a href="html/components.html" class="nk-menu-link">
+                                                <span class="nk-menu-text">Components</span>
+                                            </a>
+                                        </li><!-- .nk-menu-item -->
+                                        <li class="nk-menu-item">
+                                            <a href="html/soporte.html" class="nk-menu-link">
+                                                <span class="nk-menu-text">Support</span>
+                                            </a>
+                                        </li><!-- .nk-menu-item -->
+                                        <li class="nk-menu-item">
+                                            <a href="html/pages/contacto.html" class="nk-menu-link">
+                                                <span class="nk-menu-text">Contact</span>
+                                            </a>
+                                        </li><!-- .nk-menu-item -->
+                                    </ul><!-- .nk-menu -->
+                                    <ul class="nk-menu">
+                                        <li class="nk-menu-heading">
+                                            <h6 class="overline-title text-primary-alt">Sociedades</h6>
+                                        </li><!-- .nk-menu-heading -->
+										    <li class="nk-menu-item has-sub">
+                                            <a href="#" class="nk-menu-link nk-menu-toggle">
+                                                <span class="nk-menu-icon"><em class="icon ni ni-layers"></em></span>
+                                                <span class="nk-menu-text">Participadas</span>
+                                            </a>
+                                            <ul class="nk-menu-sub">
+                                                <li class="nk-menu-item">
+                                                    <a href="html/participadas-cuadro.html" class="nk-menu-link"><span class="nk-menu-text">Cuadro Participadas </span></a>
+                                                </li>
+                                                <li class="nk-menu-item">
+                                                    <a href="html/participadas-listado.html" class="nk-menu-link"><span class="nk-menu-text">Lista Participadas</span></a>
+                                                </li>
+												<li class="nk-menu-item">
+                                                    <a href="html/participadas-kanban.html" class="nk-menu-link"><span class="nk-menu-text">Kanban Participadas</span></a>
+                                                </li>
+                                            </ul><!-- .nk-menu-sub -->
+											</li><!-- .nk-menu-item -->
+											<li class="nk-menu-item has-sub">
+                                            <a href="#" class="nk-menu-link nk-menu-toggle">
+                                                <span class="nk-menu-icon"><em class="icon ni ni-opt"></em></span>
+                                                <span class="nk-menu-text">Administradas</span>
+                                            </a>
+                                            <ul class="nk-menu-sub">
+                                                <li class="nk-menu-item">
+                                                    <a href="html/administradas-cuadro.html" class="nk-menu-link"><span class="nk-menu-text">Cuadro Administradas </span></a>
+                                                </li>
+                                                <li class="nk-menu-item">
+                                                    <a href="html/administradas-listado.html" class="nk-menu-link"><span class="nk-menu-text">Lista Administradas</span></a>
+                                                </li>
+												<li class="nk-menu-item">
+                                                    <a href="html/administradas-kanban.html" class="nk-menu-link"><span class="nk-menu-text">Kanban Administradas</span></a>
+                                                </li>
+                                            </ul><!-- .nk-menu-sub -->
+                                        </li><!-- .nk-menu-item -->
+										                                        <li class="nk-menu-item has-sub">
+                                            <a href="#" class="nk-menu-link nk-menu-toggle">
+                                                <span class="nk-menu-icon"><em class="icon ni ni-exchange"></em></span>
+                                                <span class="nk-menu-text">Transacciones</span>
+                                            </a>
+                                            <ul class="nk-menu-sub">
+                                                <li class="nk-menu-item">
+                                                    <a href="html/suscripcion-historial-pagos.html" class="nk-menu-link"><span class="nk-menu-text">Listado Transacciones</span></a>
+                                                </li>
+                                            </ul><!-- .nk-menu-sub -->
+                                        </li><!-- .nk-menu-item -->
+
+                                        <li class="nk-menu-heading">
+                                            <h6 class="overline-title text-primary-alt"></h6>
+                                        </li><!-- .nk-menu-heading -->
+                                       <li class="nk-menu-heading">
+                                            <h6 class="overline-title text-primary-alt"></h6>
+                                        </li><!-- .nk-menu-heading -->
+										<li class="nk-menu-heading">
+                                            <h6 class="overline-title text-primary-alt"></h6>
+                                        </li><!-- .nk-menu-heading -->
+										<ul class="nk-menu nk-menu-sm">
+                                        <!-- Menu -->
+                                        <li class="nk-menu-heading">
+                                            <span>Cuenta</span>
+                                        </li>
+										<li class="nk-menu-item">
+                                            <a href="html/perfil-mis-datos.html" class="nk-menu-link">
+                                                <span class="nk-menu-icon"><em class="icon ni ni-user-round"></em></span>
+                                                <span class="nk-menu-text">Mis datos</span>
+                                            </a>
+                                        </li>
+                                        <li class="nk-menu-item">
+                                            <a href="html/subscription/suscripcion-dashboard.html" class="nk-menu-link">
+                                                <span class="nk-menu-icon"><em class="icon ni ni-report-profit"></em></span>
+                                                <span class="nk-menu-text">Suscripción</span>
+                                            </a>
+                                        </li>
+                                        <li class="nk-menu-item">
+                                            <a href="html/pages/contacto.html" class="nk-menu-link">
+                                                <span class="nk-menu-icon"><em class="icon ni ni-external"></em></span>
+												<span class="nk-menu-text">Contactar</span>
+                                            </a>
+                                        </li>
+                                        <li class="nk-menu-item">
+                                            <a href="html/soporte.html" class="nk-menu-link">
+                                                <span class="nk-menu-icon"><em class="icon ni ni-info"></em></span>
+												<span class="nk-menu-text">Ayuda/Soporte</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+									
+                                    </ul><!-- .nk-menu -->
+                                </div><!-- .nk-sidebar-menu -->
+                                <div class="nk-aside-close">
+                                    <a href="#" class="toggle" data-target="sideNav"><em class="icon ni ni-cross"></em></a>
+                                </div><!-- .nk-aside-close -->
+                            </div><!-- .nk-aside -->
+                            <div class="nk-content-body">
+                                <div class="nk-content-wrap">
+                                    <div class="nk-block-head nk-block-head-sm">
+                                        <div class="nk-block-between">
+                                            <div class="nk-block-head-content">
+                                                <h3 class="nk-block-title page-title">Sociedades Administradas</h3>
+                                                <div class="nk-block-des text-soft">
+                                                    <p>Martí Manent tienes 6 sociedades administradas.</p>
+                                                </div>
+                                            </div><!-- .nk-block-head-content -->
+                                            <div class="nk-block-head-content">
+                                                <div class="toggle-wrap nk-block-tools-toggle">
+                                                    <a href="#" class="btn btn-icon btn-trigger toggle-expand mr-n1" data-target="pageMenu"><em class="icon ni ni-menu-alt-r"></em></a>
+                                                    <div class="toggle-expand-content" data-content="pageMenu">
+                                                        <ul class="nk-block-tools g-3">
+                                                            <li>
+                                                            </li>
+                                                            <li class="nk-block-tools-opt"><a href="#" class="btn btn-primary"><em class="icon ni ni-plus"></em><span>Añadir Sociedad</span></a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div><!-- .toggle-wrap -->
+                                            </div><!-- .nk-block-head-content -->
+                                        </div><!-- .nk-block-between -->
+                                    </div><!-- .nk-block-head -->
+                                    <div class="nk-block">
+                                        <div class="card card-bordered card-stretch">
+                                            <div class="card-inner-group">
+                                                <div class="card-inner p-0">
+                                                    <table class="nk-tb-list nk-tb-ulist">
+                                                        <thead>
+                                                            <tr class="nk-tb-item nk-tb-head">
+                                                                <th class="nk-tb-col nk-tb-col-check">
+                                                                    <div class="custom-control custom-control-sm custom-checkbox notext">
+                                                                        <input type="checkbox" class="custom-control-input" id="pid-all">
+                                                                        <label class="custom-control-label" for="pid-all"></label>
+                                                                    </div>
+                                                                </th>
+                                                                <th class="nk-tb-col"><span class="sub-text">Sociedad</span></th>
+                                                                <th class="nk-tb-col tb-col-xl"><span class="sub-text">Nº Part.</span></th>
+                                                                <th class="nk-tb-col tb-col-xl"><span class="sub-text">Socios</span></th>
+                                                                <th class="nk-tb-col tb-col-xxl"><span class="sub-text">Capital</span></th>
+                                                                <th class="nk-tb-col tb-col-md"><span class="sub-text">Valor</span></th>
+                                                                <th class="nk-tb-col tb-col-mb"><span class="sub-text">Fecha Const.</span></th>
+                                                                <th class="nk-tb-col nk-tb-col-tools text-right">
+
+                                                                </th>
+                                                            </tr><!-- .nk-tb-item -->
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr class="nk-tb-item">
+                                                                <td class="nk-tb-col nk-tb-col-check">
+                                                                    <div class="custom-control custom-control-sm custom-checkbox notext">
+                                                                        <input type="checkbox" class="custom-control-input" id="pid-01">
+                                                                        <label class="custom-control-label" for="pid-01"></label>
+                                                                    </div>
+                                                                </td>
+                                                                <td class="nk-tb-col">
+                                                                    <a href="html/socios-listado.html" class="project-title">
+                                                                        <div class="user-avatar sm bg-primary">
+                                                                    <img src="./images/avatar/google-logo.png" alt="Google, S.L.">
+                                                                </div>
+                                                                        <div class="project-info">
+                                                                            <h6 class="title">Google, S.L.</h6>
+                                                                        </div>
+                                                                    </a>
+                                                                </td>
+                                                                <td class="nk-tb-col tb-col-xl">
+                                                                    <span>2.500</span>
+                                                                </td>
+                                                                <td class="nk-tb-col tb-col-xl">
+                                                                    <span>15</span>
+                                                                </td>
+                                                                <td class="nk-tb-col tb-col-xxl">
+                                                                    <span>10.000€</span>
+                                                                </td>
+                                                                <td class="nk-tb-col tb-col-md">
+                                                                    <div class="project-list-progress">
+                                                                        <div class="project-progress-percent">5.000€</div>
+                                                                    </div>
+                                                                </td>
+                                                                <td class="nk-tb-col tb-col-mb">
+                                                                    <span class="badge badge-dim badge-warning"><em class="icon ni ni-calendar-alt"></em><span>10/02/2000</span></span>
+                                                                </td>
+                                                                <td class="nk-tb-col nk-tb-col-tools">
+                                                                    <ul class="nk-tb-actions gx-1">
+                                                                        <li>
+                                                                            <div class="drodown">
+                                                                                <a href="#" class="dropdown-toggle btn btn-sm btn-icon btn-trigger" data-toggle="dropdown"><em class="icon ni ni-more-h"></em></a>
+                                                                                <div class="dropdown-menu dropdown-menu-right">
+                                                                                    <ul class="link-list-opt no-bdr">
+                                                                            <li><a href="html/socios-libro.html"><em class="icon ni ni-eye"></em><span>Ver Libro Socios</span></a></li>
+                                                                            <li><a href="html/ticket-list"><em class="icon ni ni-file-text"></em><span>Ver documentos</span></a></li>
+                                                                            <li><a href="#"><em class="icon ni ni-edit"></em><span>Editar</span></a></li>
+                                                                                    </ul>
+                                                                                </div>
+                                                                            </div>
+                                                                        </li>
+                                                                    </ul>
+                                                                </td>
+                                                            </tr><!-- .nk-tb-item -->
+															<tr class="nk-tb-item">
+                                                                <td class="nk-tb-col nk-tb-col-check">
+                                                                    <div class="custom-control custom-control-sm custom-checkbox notext">
+                                                                        <input type="checkbox" class="custom-control-input" id="pid-01">
+                                                                        <label class="custom-control-label" for="pid-01"></label>
+                                                                    </div>
+                                                                </td>
+                                                                <td class="nk-tb-col">
+                                                                    <a href="html/socios-listado.html" class="project-title">
+                                                                        <div class="user-avatar sm bg-primary">
+                                                                    <img src="./images/avatar/google-logo.png" alt="Google, S.L.">
+                                                                </div>
+                                                                        <div class="project-info">
+                                                                            <h6 class="title">Google, S.L.</h6>
+                                                                        </div>
+                                                                    </a>
+                                                                </td>
+                                                                <td class="nk-tb-col tb-col-xl">
+                                                                    <span>2.500</span>
+                                                                </td>
+                                                                <td class="nk-tb-col tb-col-xl">
+                                                                    <span>15</span>
+                                                                </td>
+                                                                <td class="nk-tb-col tb-col-xxl">
+                                                                    <span>10.000€</span>
+                                                                </td>
+                                                                <td class="nk-tb-col tb-col-md">
+                                                                    <div class="project-list-progress">
+                                                                        <div class="project-progress-percent">5.000€</div>
+                                                                    </div>
+                                                                </td>
+                                                                <td class="nk-tb-col tb-col-mb">
+                                                                    <span class="badge badge-dim badge-warning"><em class="icon ni ni-calendar-alt"></em><span>10/02/2000</span></span>
+                                                                </td>
+                                                                <td class="nk-tb-col nk-tb-col-tools">
+                                                                    <ul class="nk-tb-actions gx-1">
+                                                                        <li>
+                                                                            <div class="drodown">
+                                                                                <a href="#" class="dropdown-toggle btn btn-sm btn-icon btn-trigger" data-toggle="dropdown"><em class="icon ni ni-more-h"></em></a>
+                                                                                <div class="dropdown-menu dropdown-menu-right">
+                                                                                    <ul class="link-list-opt no-bdr">
+                                                                            <li><a href="html/socios-libro.html"><em class="icon ni ni-eye"></em><span>Ver Libro Socios</span></a></li>
+                                                                            <li><a href="html/ticket-list"><em class="icon ni ni-file-text"></em><span>Ver documentos</span></a></li>
+                                                                            <li><a href="#"><em class="icon ni ni-edit"></em><span>Editar</span></a></li>
+                                                                                    </ul>
+                                                                                </div>
+                                                                            </div>
+                                                                        </li>
+                                                                    </ul>
+                                                                </td>
+                                                            </tr><!-- .nk-tb-item -->
+															<tr class="nk-tb-item">
+                                                                <td class="nk-tb-col nk-tb-col-check">
+                                                                    <div class="custom-control custom-control-sm custom-checkbox notext">
+                                                                        <input type="checkbox" class="custom-control-input" id="pid-01">
+                                                                        <label class="custom-control-label" for="pid-01"></label>
+                                                                    </div>
+                                                                </td>
+                                                                <td class="nk-tb-col">
+                                                                    <a href="html/socios-listado.html" class="project-title">
+                                                                        <div class="user-avatar sm bg-primary">
+                                                                    <img src="./images/avatar/google-logo.png" alt="Google, S.L.">
+                                                                </div>
+                                                                        <div class="project-info">
+                                                                            <h6 class="title">Embutidos Casademont, S.L.</h6>
+                                                                        </div>
+                                                                    </a>
+                                                                </td>
+                                                                <td class="nk-tb-col tb-col-xl">
+                                                                    <span>2.500</span>
+                                                                </td>
+                                                                <td class="nk-tb-col tb-col-xl">
+                                                                    <span>15</span>
+                                                                </td>
+                                                                <td class="nk-tb-col tb-col-xxl">
+                                                                    <span>10.000€</span>
+                                                                </td>
+                                                                <td class="nk-tb-col tb-col-md">
+                                                                    <div class="project-list-progress">
+                                                                        <div class="project-progress-percent">5.000€</div>
+                                                                    </div>
+                                                                </td>
+                                                                <td class="nk-tb-col tb-col-mb">
+                                                                    <span class="badge badge-dim badge-warning"><em class="icon ni ni-calendar-alt"></em><span>10/02/2000</span></span>
+                                                                </td>
+                                                                <td class="nk-tb-col nk-tb-col-tools">
+                                                                    <ul class="nk-tb-actions gx-1">
+                                                                        <li>
+                                                                            <div class="drodown">
+                                                                                <a href="#" class="dropdown-toggle btn btn-sm btn-icon btn-trigger" data-toggle="dropdown"><em class="icon ni ni-more-h"></em></a>
+                                                                                <div class="dropdown-menu dropdown-menu-right">
+                                                                                    <ul class="link-list-opt no-bdr">
+                                                                            <li><a href="html/socios-libro.html"><em class="icon ni ni-eye"></em><span>Ver Libro Socios</span></a></li>
+                                                                            <li><a href="html/ticket-list"><em class="icon ni ni-file-text"></em><span>Ver documentos</span></a></li>
+                                                                            <li><a href="#"><em class="icon ni ni-edit"></em><span>Editar</span></a></li>
+                                                                                    </ul>
+                                                                                </div>
+                                                                            </div>
+                                                                        </li>
+                                                                    </ul>
+                                                                </td>
+                                                            </tr><!-- .nk-tb-item -->
+															<tr class="nk-tb-item">
+                                                                <td class="nk-tb-col nk-tb-col-check">
+                                                                    <div class="custom-control custom-control-sm custom-checkbox notext">
+                                                                        <input type="checkbox" class="custom-control-input" id="pid-01">
+                                                                        <label class="custom-control-label" for="pid-01"></label>
+                                                                    </div>
+                                                                </td>
+                                                                <td class="nk-tb-col">
+                                                                    <a href="html/socios-listado.html" class="project-title">
+                                                                        <div class="user-avatar sm bg-primary">
+                                                                    <img src="./images/avatar/google-logo.png" alt="Google, S.L.">
+                                                                </div>
+                                                                        <div class="project-info">
+                                                                            <h6 class="title">Google, S.L.</h6>
+                                                                        </div>
+                                                                    </a>
+                                                                </td>
+                                                                <td class="nk-tb-col tb-col-xl">
+                                                                    <span>2.500</span>
+                                                                </td>
+                                                                <td class="nk-tb-col tb-col-xl">
+                                                                    <span>15</span>
+                                                                </td>
+                                                                <td class="nk-tb-col tb-col-xxl">
+                                                                    <span>10.000€</span>
+                                                                </td>
+                                                                <td class="nk-tb-col tb-col-md">
+                                                                    <div class="project-list-progress">
+                                                                        <div class="project-progress-percent">5.000€</div>
+                                                                    </div>
+                                                                </td>
+                                                                <td class="nk-tb-col tb-col-mb">
+                                                                    <span class="badge badge-dim badge-warning"><em class="icon ni ni-calendar-alt"></em><span>10/02/2000</span></span>
+                                                                </td>
+                                                                <td class="nk-tb-col nk-tb-col-tools">
+                                                                    <ul class="nk-tb-actions gx-1">
+                                                                        <li>
+                                                                            <div class="drodown">
+                                                                                <a href="#" class="dropdown-toggle btn btn-sm btn-icon btn-trigger" data-toggle="dropdown"><em class="icon ni ni-more-h"></em></a>
+                                                                                <div class="dropdown-menu dropdown-menu-right">
+                                                                                    <ul class="link-list-opt no-bdr">
+                                                                            <li><a href="html/socios-libro.html"><em class="icon ni ni-eye"></em><span>Ver Libro Socios</span></a></li>
+                                                                            <li><a href="html/ticket-list"><em class="icon ni ni-file-text"></em><span>Ver documentos</span></a></li>
+                                                                            <li><a href="#"><em class="icon ni ni-edit"></em><span>Editar</span></a></li>
+                                                                                    </ul>
+                                                                                </div>
+                                                                            </div>
+                                                                        </li>
+                                                                    </ul>
+                                                                </td>
+                                                            </tr><!-- .nk-tb-item -->
+															<tr class="nk-tb-item">
+                                                                <td class="nk-tb-col nk-tb-col-check">
+                                                                    <div class="custom-control custom-control-sm custom-checkbox notext">
+                                                                        <input type="checkbox" class="custom-control-input" id="pid-01">
+                                                                        <label class="custom-control-label" for="pid-01"></label>
+                                                                    </div>
+                                                                </td>
+                                                                <td class="nk-tb-col">
+                                                                    <a href="html/socios-listado.html" class="project-title">
+                                                                        <div class="user-avatar sm bg-primary">
+                                                                    <img src="./images/avatar/google-logo.png" alt="Google, S.L.">
+                                                                </div>
+                                                                        <div class="project-info">
+                                                                            <h6 class="title">Telefónica, S.L.</h6>
+                                                                        </div>
+                                                                    </a>
+                                                                </td>
+                                                                <td class="nk-tb-col tb-col-xl">
+                                                                    <span>2.500</span>
+                                                                </td>
+                                                                <td class="nk-tb-col tb-col-xl">
+                                                                    <span>15</span>
+                                                                </td>
+                                                                <td class="nk-tb-col tb-col-xxl">
+                                                                    <span>10.000€</span>
+                                                                </td>
+                                                                <td class="nk-tb-col tb-col-md">
+                                                                    <div class="project-list-progress">
+                                                                        <div class="project-progress-percent">5.000€</div>
+                                                                    </div>
+                                                                </td>
+                                                                <td class="nk-tb-col tb-col-mb">
+                                                                    <span class="badge badge-dim badge-warning"><em class="icon ni ni-calendar-alt"></em><span>10/02/2000</span></span>
+                                                                </td>
+                                                                <td class="nk-tb-col nk-tb-col-tools">
+                                                                    <ul class="nk-tb-actions gx-1">
+                                                                        <li>
+                                                                            <div class="drodown">
+                                                                                <a href="#" class="dropdown-toggle btn btn-sm btn-icon btn-trigger" data-toggle="dropdown"><em class="icon ni ni-more-h"></em></a>
+                                                                                <div class="dropdown-menu dropdown-menu-right">
+                                                                                    <ul class="link-list-opt no-bdr">
+                                                                            <li><a href="html/socios-libro.html"><em class="icon ni ni-eye"></em><span>Ver Libro Socios</span></a></li>
+                                                                            <li><a href="html/ticket-list"><em class="icon ni ni-file-text"></em><span>Ver documentos</span></a></li>
+                                                                            <li><a href="#"><em class="icon ni ni-edit"></em><span>Editar</span></a></li>
+                                                                                    </ul>
+                                                                                </div>
+                                                                            </div>
+                                                                        </li>
+                                                                    </ul>
+                                                                </td>
+                                                            </tr><!-- .nk-tb-item -->
+															<tr class="nk-tb-item">
+                                                                <td class="nk-tb-col nk-tb-col-check">
+                                                                    <div class="custom-control custom-control-sm custom-checkbox notext">
+                                                                        <input type="checkbox" class="custom-control-input" id="pid-01">
+                                                                        <label class="custom-control-label" for="pid-01"></label>
+                                                                    </div>
+                                                                </td>
+                                                                <td class="nk-tb-col">
+                                                                    <a href="html/socios-listado.html" class="project-title">
+                                                                        <div class="user-avatar sm bg-primary">
+                                                                    <img src="./images/avatar/google-logo.png" alt="Google, S.L.">
+                                                                </div>
+                                                                        <div class="project-info">
+                                                                            <h6 class="title">Google, S.L.</h6>
+                                                                        </div>
+                                                                    </a>
+                                                                </td>
+                                                                <td class="nk-tb-col tb-col-xl">
+                                                                    <span>2.500</span>
+                                                                </td>
+                                                                <td class="nk-tb-col tb-col-xl">
+                                                                    <span>15</span>
+                                                                </td>
+                                                                <td class="nk-tb-col tb-col-xxl">
+                                                                    <span>10.000€</span>
+                                                                </td>
+                                                                <td class="nk-tb-col tb-col-md">
+                                                                    <div class="project-list-progress">
+                                                                        <div class="project-progress-percent">5.000€</div>
+                                                                    </div>
+                                                                </td>
+                                                                <td class="nk-tb-col tb-col-mb">
+                                                                    <span class="badge badge-dim badge-warning"><em class="icon ni ni-calendar-alt"></em><span>10/02/2000</span></span>
+                                                                </td>
+                                                                <td class="nk-tb-col nk-tb-col-tools">
+                                                                    <ul class="nk-tb-actions gx-1">
+                                                                        <li>
+                                                                            <div class="drodown">
+                                                                                <a href="#" class="dropdown-toggle btn btn-sm btn-icon btn-trigger" data-toggle="dropdown"><em class="icon ni ni-more-h"></em></a>
+                                                                                <div class="dropdown-menu dropdown-menu-right">
+                                                                                    <ul class="link-list-opt no-bdr">
+                                                                            <li><a href="html/socios-libro.html"><em class="icon ni ni-eye"></em><span>Ver Libro Socios</span></a></li>
+                                                                            <li><a href="html/ticket-list"><em class="icon ni ni-file-text"></em><span>Ver documentos</span></a></li>
+                                                                            <li><a href="#"><em class="icon ni ni-edit"></em><span>Editar</span></a></li>
+                                                                                    </ul>
+                                                                                </div>
+                                                                            </div>
+                                                                        </li>
+                                                                    </ul>
+                                                                </td>
+                                                            </tr><!-- .nk-tb-item -->
+															<tr class="nk-tb-item">
+                                                                <td class="nk-tb-col nk-tb-col-check">
+                                                                    <div class="custom-control custom-control-sm custom-checkbox notext">
+                                                                        <input type="checkbox" class="custom-control-input" id="pid-01">
+                                                                        <label class="custom-control-label" for="pid-01"></label>
+                                                                    </div>
+                                                                </td>
+                                                                <td class="nk-tb-col">
+                                                                    <a href="html/socios-listado.html" class="project-title">
+                                                                        <div class="user-avatar rd sm-warning"><span>GO</span></div>
+                                                                        <div class="project-info">
+                                                                            <h6 class="title">elAbogado Directories, S.L.</h6>
+                                                                        </div>
+                                                                    </a>
+                                                                </td>
+                                                                <td class="nk-tb-col tb-col-xl">
+                                                                    <span>2.500</span>
+                                                                </td>
+                                                                <td class="nk-tb-col tb-col-xl">
+                                                                    <span>15</span>
+                                                                </td>
+                                                                <td class="nk-tb-col tb-col-xxl">
+                                                                    <span>10.000€</span>
+                                                                </td>
+                                                                <td class="nk-tb-col tb-col-md">
+                                                                    <div class="project-list-progress">
+                                                                        <div class="project-progress-percent">5.000€</div>
+                                                                    </div>
+                                                                </td>
+                                                                <td class="nk-tb-col tb-col-mb">
+                                                                    <span class="badge badge-dim badge-warning"><em class="icon ni ni-calendar-alt"></em><span>10/02/2000</span></span>
+                                                                </td>
+                                                                <td class="nk-tb-col nk-tb-col-tools">
+                                                                    <ul class="nk-tb-actions gx-1">
+                                                                        <li>
+                                                                            <div class="drodown">
+                                                                                <a href="#" class="dropdown-toggle btn btn-sm btn-icon btn-trigger" data-toggle="dropdown"><em class="icon ni ni-more-h"></em></a>
+                                                                                <div class="dropdown-menu dropdown-menu-right">
+                                                                                    <ul class="link-list-opt no-bdr">
+                                                                            <li><a href="html/socios-libro.html"><em class="icon ni ni-eye"></em><span>Ver Libro Socios</span></a></li>
+                                                                            <li><a href="html/ticket-list"><em class="icon ni ni-file-text"></em><span>Ver documentos</span></a></li>
+                                                                            <li><a href="#"><em class="icon ni ni-edit"></em><span>Editar</span></a></li>
+                                                                                    </ul>
+                                                                                </div>
+                                                                            </div>
+                                                                        </li>
+                                                                    </ul>
+                                                                </td>
+                                                            </tr><!-- .nk-tb-item -->
+															<tr class="nk-tb-item">
+                                                                <td class="nk-tb-col nk-tb-col-check">
+                                                                    <div class="custom-control custom-control-sm custom-checkbox notext">
+                                                                        <input type="checkbox" class="custom-control-input" id="pid-01">
+                                                                        <label class="custom-control-label" for="pid-01"></label>
+                                                                    </div>
+                                                                </td>
+                                                                <td class="nk-tb-col">
+                                                                    <a href="html/socios-listado.html" class="project-title">
+                                                                        <div class="user-avatar sm bg-primary">
+                                                                    <img src="./images/avatar/google-logo.png" alt="Google, S.L.">
+                                                                </div>
+                                                                        <div class="project-info">
+                                                                            <h6 class="title">Tesla, S.L.</h6>
+                                                                        </div>
+                                                                    </a>
+                                                                </td>
+                                                                <td class="nk-tb-col tb-col-xl">
+                                                                    <span>2.500</span>
+                                                                </td>
+                                                                <td class="nk-tb-col tb-col-xl">
+                                                                    <span>15</span>
+                                                                </td>
+                                                                <td class="nk-tb-col tb-col-xxl">
+                                                                    <span>10.000€</span>
+                                                                </td>
+                                                                <td class="nk-tb-col tb-col-md">
+                                                                    <div class="project-list-progress">
+                                                                        <div class="project-progress-percent">5.000€</div>
+                                                                    </div>
+                                                                </td>
+                                                                <td class="nk-tb-col tb-col-mb">
+                                                                    <span class="badge badge-dim badge-warning"><em class="icon ni ni-calendar-alt"></em><span>10/02/2000</span></span>
+                                                                </td>
+                                                                <td class="nk-tb-col nk-tb-col-tools">
+                                                                    <ul class="nk-tb-actions gx-1">
+                                                                        <li>
+                                                                            <div class="drodown">
+                                                                                <a href="#" class="dropdown-toggle btn btn-sm btn-icon btn-trigger" data-toggle="dropdown"><em class="icon ni ni-more-h"></em></a>
+                                                                                <div class="dropdown-menu dropdown-menu-right">
+                                                                                    <ul class="link-list-opt no-bdr">
+                                                                            <li><a href="html/socios-libro.html"><em class="icon ni ni-eye"></em><span>Ver Libro Socios</span></a></li>
+                                                                            <li><a href="html/ticket-list"><em class="icon ni ni-file-text"></em><span>Ver documentos</span></a></li>
+                                                                            <li><a href="#"><em class="icon ni ni-edit"></em><span>Editar</span></a></li>
+                                                                                    </ul>
+                                                                                </div>
+                                                                            </div>
+                                                                        </li>
+                                                                    </ul>
+                                                                </td>
+                                                            </tr><!-- .nk-tb-item -->
+															<tr class="nk-tb-item">
+                                                                <td class="nk-tb-col nk-tb-col-check">
+                                                                    <div class="custom-control custom-control-sm custom-checkbox notext">
+                                                                        <input type="checkbox" class="custom-control-input" id="pid-01">
+                                                                        <label class="custom-control-label" for="pid-01"></label>
+                                                                    </div>
+                                                                </td>
+                                                                <td class="nk-tb-col">
+                                                                    <a href="html/socios-listado.html" class="project-title">
+                                                                       <div class="user-avatar rd sm-warning"><span>GO</span></div>
+                                                                        <div class="project-info">
+                                                                            <h6 class="title">Google, S.L.</h6>
+                                                                        </div>
+                                                                    </a>
+                                                                </td>
+                                                                <td class="nk-tb-col tb-col-xl">
+                                                                    <span>2.500</span>
+                                                                </td>
+                                                                <td class="nk-tb-col tb-col-xl">
+                                                                    <span>15</span>
+                                                                </td>
+                                                                <td class="nk-tb-col tb-col-xxl">
+                                                                    <span>10.000€</span>
+                                                                </td>
+                                                                <td class="nk-tb-col tb-col-md">
+                                                                    <div class="project-list-progress">
+                                                                        <div class="project-progress-percent">5.000€</div>
+                                                                    </div>
+                                                                </td>
+                                                                <td class="nk-tb-col tb-col-mb">
+                                                                    <span class="badge badge-dim badge-warning"><em class="icon ni ni-calendar-alt"></em><span>10/02/2000</span></span>
+                                                                </td>
+                                                                <td class="nk-tb-col nk-tb-col-tools">
+                                                                    <ul class="nk-tb-actions gx-1">
+                                                                        <li>
+                                                                            <div class="drodown">
+                                                                                <a href="#" class="dropdown-toggle btn btn-sm btn-icon btn-trigger" data-toggle="dropdown"><em class="icon ni ni-more-h"></em></a>
+                                                                                <div class="dropdown-menu dropdown-menu-right">
+                                                                                    <ul class="link-list-opt no-bdr">
+                                                                            <li><a href="html/socios-libro.html"><em class="icon ni ni-eye"></em><span>Ver Libro Socios</span></a></li>
+                                                                            <li><a href="html/ticket-list"><em class="icon ni ni-file-text"></em><span>Ver documentos</span></a></li>
+                                                                            <li><a href="#"><em class="icon ni ni-edit"></em><span>Editar</span></a></li>
+                                                                                    </ul>
+                                                                                </div>
+                                                                            </div>
+                                                                        </li>
+                                                                    </ul>
+                                                                </td>
+                                                            </tr><!-- .nk-tb-item -->
+															<tr class="nk-tb-item">
+                                                                <td class="nk-tb-col nk-tb-col-check">
+                                                                    <div class="custom-control custom-control-sm custom-checkbox notext">
+                                                                        <input type="checkbox" class="custom-control-input" id="pid-01">
+                                                                        <label class="custom-control-label" for="pid-01"></label>
+                                                                    </div>
+                                                                </td>
+                                                                <td class="nk-tb-col">
+                                                                    <a href="html/socios-listado.html" class="project-title">
+                                                                        <div class="user-avatar sm bg-primary">
+                                                                    <img src="./images/avatar/google-logo.png" alt="Google, S.L.">
+                                                                </div>
+                                                                        <div class="project-info">
+                                                                            <h6 class="title">Google, S.L.</h6>
+                                                                        </div>
+                                                                    </a>
+                                                                </td>
+                                                                <td class="nk-tb-col tb-col-xl">
+                                                                    <span>2.500</span>
+                                                                </td>
+                                                                <td class="nk-tb-col tb-col-xl">
+                                                                    <span>15</span>
+                                                                </td>
+                                                                <td class="nk-tb-col tb-col-xxl">
+                                                                    <span>10.000€</span>
+                                                                </td>
+                                                                <td class="nk-tb-col tb-col-md">
+                                                                    <div class="project-list-progress">
+                                                                        <div class="project-progress-percent">5.000€</div>
+                                                                    </div>
+                                                                </td>
+                                                                <td class="nk-tb-col tb-col-mb">
+                                                                    <span class="badge badge-dim badge-warning"><em class="icon ni ni-calendar-alt"></em><span>10/02/2000</span></span>
+                                                                </td>
+                                                                <td class="nk-tb-col nk-tb-col-tools">
+                                                                    <ul class="nk-tb-actions gx-1">
+                                                                        <li>
+                                                                            <div class="drodown">
+                                                                                <a href="#" class="dropdown-toggle btn btn-sm btn-icon btn-trigger" data-toggle="dropdown"><em class="icon ni ni-more-h"></em></a>
+                                                                                <div class="dropdown-menu dropdown-menu-right">
+                                                                                    <ul class="link-list-opt no-bdr">
+                                                                            <li><a href="html/socios-libro.html"><em class="icon ni ni-eye"></em><span>Ver Libro Socios</span></a></li>
+                                                                            <li><a href="html/ticket-list"><em class="icon ni ni-file-text"></em><span>Ver documentos</span></a></li>
+                                                                            <li><a href="#"><em class="icon ni ni-edit"></em><span>Editar</span></a></li>
+                                                                                    </ul>
+                                                                                </div>
+                                                                            </div>
+                                                                        </li>
+                                                                    </ul>
+                                                                </td>
+                                                            </tr><!-- .nk-tb-item -->
+                                                            
+                                                     
+                                                        </tbody>
+                                                    </table><!-- .nk-tb-list -->
+                                                </div><!-- .card-inner -->
+                                                <div class="card-inner">
+                                                    <div class="nk-block-between-md g-3">
+                                                        <div class="g">
+                                                            <ul class="pagination justify-content-center justify-content-md-start">
+                                                                <li class="page-item"><a class="page-link" href="#">Anterior</a></li>
+                                                                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                                                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                                                <li class="page-item"><span class="page-link"><em class="icon ni ni-more-h"></em></span></li>
+                                                                <li class="page-item"><a class="page-link" href="#">6</a></li>
+                                                                <li class="page-item"><a class="page-link" href="#">7</a></li>
+                                                                <li class="page-item"><a class="page-link" href="#">Siguiente</a></li>
+                                                            </ul><!-- .pagination -->
+                                                        </div>
+                                                        <div class="g">
+                                                            <div class="pagination-goto d-flex justify-content-center justify-content-md-start gx-3">
+                                                                <div>Page</div>
+                                                                <div>
+                                                                    <select class="form-select form-select-sm" data-search="on" data-dropdown="xs center">
+                                                                        <option value="page-1">1</option>
+                                                                        <option value="page-2">2</option>
+                                                                        <option value="page-4">4</option>
+                                                                        <option value="page-5">5</option>
+                                                                        <option value="page-6">6</option>
+                                                                        <option value="page-7">7</option>
+                                                                        <option value="page-8">8</option>
+                                                                        <option value="page-9">9</option>
+                                                                        <option value="page-10">10</option>
+                                                                        <option value="page-11">11</option>
+                                                                        <option value="page-12">12</option>
+                                                                        <option value="page-13">13</option>
+                                                                        <option value="page-14">14</option>
+                                                                        <option value="page-15">15</option>
+                                                                        <option value="page-16">16</option>
+                                                                        <option value="page-17">17</option>
+                                                                        <option value="page-18">18</option>
+                                                                        <option value="page-19">19</option>
+                                                                        <option value="page-20">20</option>
+                                                                    </select>
+                                                                </div>
+                                                                <div>de 102</div>
+                                                            </div>
+                                                        </div><!-- .pagination-goto -->
+                                                    </div><!-- .nk-block-between -->
+                                                </div><!-- .card-inner -->
+                                            </div><!-- .card-inner-group -->
+                                        </div><!-- .card -->
+                                    </div><!-- .nk-block -->
+                                </div>
+                                <!-- footer @s -->
+                                <div class="nk-footer">
+                                    <div class="container wide-xl">
+                                        <div class="nk-footer-wrap g-2">
+                                            <div class="nk-footer-copyright"> &copy; <a href="#">socio.legal</a>
+                                            </div>
+                                            <div class="nk-footer-links">
+                                                <ul class="nav nav-sm">
+                                                    <li class="nav-item"><a class="nav-link" href="#">Aviso Legal</a></li>
+                                                    <li class="nav-item"><a class="nav-link" href="#">Privacidad</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- footer @e -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- content @e -->
+            </div>
+            <!-- wrap @e -->
+        </div>
+        <!-- main @e -->
+    </div>
+    <!-- app-root @e -->
+    <!-- JavaScript -->
+    <script src="./assets/js/bundle.js?ver=2.2.0"></script>
+    <script src="./assets/js/scripts.js?ver=2.2.0"></script>
+</body>
+
+</html>
