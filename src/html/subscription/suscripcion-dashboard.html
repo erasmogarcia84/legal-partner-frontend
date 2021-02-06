@@ -10,7 +10,7 @@
     <!-- Fav Icon  -->
     <link rel="shortcut icon" href="./images/favicon.png">
     <!-- Page Title  -->
-    <title>Subscription Dashboard | DashLite Admin Template</title>
+    <title>Suscripción | legal.partner</title>
     <!-- StyleSheets  -->
     <link rel="stylesheet" href="./assets/css/dashlite.css?ver=2.2.0">
     <link id="skin-default" rel="stylesheet" href="./assets/css/theme.css?ver=2.2.0">
@@ -29,58 +29,64 @@
                                 <a href="html/subscription/suscripcion-dashboard.html" class="logo-link">
                                     <img class="logo-light logo-img" src="./images/logo.png" srcset="./images/logo2x.png 2x" alt="logo">
                                     <img class="logo-dark logo-img" src="./images/logo-dark.png" srcset="./images/logo-dark2x.png 2x" alt="logo-dark">
-                                    <span class="nio-version">Subscription</span>
+                                    <span class="nio-version">Suscripción</span>
                                 </a>
                             </div><!-- .nk-header-brand -->
-                            <div class="nk-header-tools">
-                                <ul class="nk-quick-nav">
-                                    <li class="dropdown user-dropdown">
-                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                            <div class="user-toggle">
-                                                <div class="user-avatar sm">
-                                                    <em class="icon ni ni-user-alt"></em>
-                                                </div>
-                                                <div class="user-name dropdown-indicator d-none d-sm-block">Abu Bin Ishityak</div>
-                                            </div>
+                            <div class="nk-header-menu">
+                                <ul class="nk-menu nk-menu-main">
+                                    <li class="nk-menu-item">
+                                        <a href="html/index.html" class="nk-menu-link">
+                                            <span class="nk-menu-text">Panel</span>
                                         </a>
-                                        <div class="dropdown-menu dropdown-menu-md dropdown-menu-right dropdown-menu-s1">
-                                            <div class="dropdown-inner user-card-wrap bg-lighter d-none d-md-block">
-                                                <div class="user-card">
-                                                    <div class="user-avatar">
-                                                        <span>AB</span>
-                                                    </div>
-                                                    <div class="user-info">
-                                                        <span class="lead-text">Abu Bin Ishtiyak</span>
-                                                        <span class="sub-text">info@softnio.com</span>
-                                                    </div>
-                                                    <div class="user-action">
-                                                        <a class="btn btn-icon mr-n2" href="html/subscription/sociedad-administradores.html"><em class="icon ni ni-setting"></em></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="dropdown-inner">
-                                                <ul class="link-list">
-                                                    <li><a href="html/subscription/profile.html"><em class="icon ni ni-user-alt"></em><span>View Profile</span></a></li>
-                                                    <li><a href="html/subscription/sociedad-administradores.html"><em class="icon ni ni-setting-alt"></em><span>Account Setting</span></a></li>
-                                                    <li><a href="html/subscription/profile-activity.html"><em class="icon ni ni-activity-alt"></em><span>Login Activity</span></a></li>
-                                                    <li><a class="dark-switch" href="#"><em class="icon ni ni-moon"></em><span>Dark Mode</span></a></li>
-                                                </ul>
-                                            </div>
-                                            <div class="dropdown-inner">
-                                                <ul class="link-list">
-                                                    <li><a href="#"><em class="icon ni ni-signout"></em><span>Sign out</span></a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </li><!-- .dropdown -->
+                                    </li><!-- .nk-menu-item -->
+                                    <li class="nk-menu-item has-sub">
+                                        <a href="#" class="nk-menu-link nk-menu-toggle">
+                                            <span class="nk-menu-text">Participadas</span>
+                                        </a>
+                                        <ul class="nk-menu-sub">
+                                            <li class="nk-menu-item">
+                                                <a href="html/participadas-cuadro.html" class="nk-menu-link"><span class="nk-menu-text">Cuadro Participadas</span></a>
+                                            </li>
+                                            <li class="nk-menu-item">
+                                                <a href="html/participadas-listado.html" class="nk-menu-link"><span class="nk-menu-text">Lista Participadas</span></a>
+                                            </li>
+                                            <li class="nk-menu-item">
+                                                <a href="html/participadas-kanban.html" class="nk-menu-link"><span class="nk-menu-text">Kanban Participadas</span></a>
+                                            </li>
+											
+                                        </ul><!-- .nk-menu-sub -->
+                                    </li><!-- .nk-menu-item -->
+									    <li class="nk-menu-item has-sub">
+                                        <a href="#" class="nk-menu-link nk-menu-toggle">
+                                            <span class="nk-menu-text">Administradas</span>
+                                        </a>
+                                        <ul class="nk-menu-sub">
+                                            <li class="nk-menu-item">
+                                                <a href="html/administradas-cuadro.html" class="nk-menu-link"><span class="nk-menu-text">Cuadro Administradas</span></a>
+                                            </li>
+                                            <li class="nk-menu-item">
+                                                <a href="html/administradas-listado.html" class="nk-menu-link"><span class="nk-menu-text">Lista Administradas</span></a>
+                                            </li>
+                                            <li class="nk-menu-item">
+                                                <a href="html/administradas-kanban.html" class="nk-menu-link"><span class="nk-menu-text">Kanban Administradas</span></a>
+                                            </li>
+											
+                                        </ul><!-- .nk-menu-sub -->
+                                    </li><!-- .nk-menu-item -->
+                                    
+                                </ul><!-- .nk-menu -->
+                            </div><!-- .nk-header-menu -->
+                            <div class="nk-header-tools">
+								<ul class="nk-quick-nav">
+								<a href="html/components/forms/sociedad-alta.html" class="btn btn-outline-primary">Añadir Sociedad</a>
                                     <li class="dropdown notification-dropdown">
-                                        <a href="#" class="dropdown-toggle nk-quick-nav-icon mr-lg-n1" data-toggle="dropdown">
+                                        <a href="#" class="dropdown-toggle nk-quick-nav-icon" data-toggle="dropdown">
                                             <div class="icon-status icon-status-info"><em class="icon ni ni-bell"></em></div>
                                         </a>
                                         <div class="dropdown-menu dropdown-menu-xl dropdown-menu-right dropdown-menu-s1">
                                             <div class="dropdown-head">
-                                                <span class="sub-title nk-dropdown-title">Notifications</span>
-                                                <a href="#">Mark All as Read</a>
+                                                <span class="sub-title nk-dropdown-title">Notificaciones</span>
+                                                <a href="#">Marcar como leídas</a>
                                             </div>
                                             <div class="dropdown-body">
                                                 <div class="nk-notification">
@@ -141,7 +147,46 @@
                                                 </div><!-- .nk-notification -->
                                             </div><!-- .nk-dropdown-body -->
                                             <div class="dropdown-foot center">
-                                                <a href="#">View All</a>
+                                                <a href="#">Ver todas</a>
+                                            </div>
+                                        </div>
+                                    </li><!-- .dropdown -->
+                                    <li class="dropdown user-dropdown">
+                                        <a href="#" class="dropdown-toggle mr-lg-n1" data-toggle="dropdown">
+                                            <div class="user-toggle">
+                                                <div class="user-avatar sm">
+                                                    <em class="icon ni ni-user-alt"></em>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <div class="dropdown-menu dropdown-menu-md dropdown-menu-right dropdown-menu-s1">
+                                            <div class="dropdown-inner user-card-wrap bg-lighter d-none d-md-block">
+                                                <div class="user-card">
+                                                    <div class="user-avatar">
+                                                        <span>MM</span>
+                                                    </div>
+                                                    <div class="user-info">
+                                                        <span class="lead-text">Martí Manent</span>
+                                                        <span class="sub-text">marti@derecho.com</span>
+                                                    </div>
+                                                    <div class="user-action">
+                                                        <a class="btn btn-icon mr-n2" href="html/perfil-seguridad.html"><em class="icon ni ni-setting"></em></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="dropdown-inner">
+                                                <ul class="link-list">
+                                                    <li><a href="html/perfil-mis-datos.html"><em class="icon ni ni-user-alt"></em><span>Mi perfil</span></a></li>
+                                                    <li><a href="html/perfil-seguridad.html"><em class="icon ni ni-setting-alt"></em><span>Configuración cuenta</span></a></li>
+													<li><a href="html/subscription/suscripcion-dashboard.html"><em class="icon ni ni-coin-eur"></em><span>Mi suscripción</span></a></li>
+													<li><a href="html/perfil-usuarios-acceso.html"><em class="icon ni ni-users"></em><span>Usuarios de la cuenta</span></a></li>
+                                                    <li><a class="dark-switch" href="#"><em class="icon ni ni-moon"></em><span>Modo nocturno</span></a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="dropdown-inner">
+                                                <ul class="link-list">
+                                                    <li><a href="#"><em class="icon ni ni-signout"></em><span>Salir</span></a></li>
+                                                </ul>
                                             </div>
                                         </div>
                                     </li><!-- .dropdown -->
@@ -163,72 +208,24 @@
                                     <!-- Menu -->
                                     <ul class="nk-menu">
                                         <li class="nk-menu-heading">
-                                            <h6 class="overline-title">Menu</h6>
+                                            <h6 class="overline-title">Suscripción</h6>
                                         </li>
                                         <li class="nk-menu-item">
                                             <a href="html/subscription/suscripcion-dashboard.html" class="nk-menu-link">
                                                 <span class="nk-menu-icon"><em class="icon ni ni-dashboard"></em></span>
-                                                <span class="nk-menu-text">Dashboard</span>
+                                                <span class="nk-menu-text">Resumen</span>
                                             </a>
                                         </li>
                                         <li class="nk-menu-item">
                                             <a href="html/subscription/suscripcion-mis-suscripciones.html" class="nk-menu-link">
                                                 <span class="nk-menu-icon"><em class="icon ni ni-file-text"></em></span>
-                                                <span class="nk-menu-text">My Subscription</span>
+                                                <span class="nk-menu-text">Mis Suscripciones</span>
                                             </a>
                                         </li>
                                         <li class="nk-menu-item">
-                                            <a href="html/subscription/payments.html" class="nk-menu-link">
+                                            <a href="html/subscription/suscripcion-historial-pagos.html" class="nk-menu-link">
                                                 <span class="nk-menu-icon"><em class="icon ni ni-report-profit"></em></span>
-                                                <span class="nk-menu-text">Payment History</span>
-                                            </a>
-                                        </li>
-                                        <li class="nk-menu-item">
-                                            <a href="html/subscription/team-access.html" class="nk-menu-link">
-                                                <span class="nk-menu-icon"><em class="icon ni ni-users"></em></span>
-                                                <span class="nk-menu-text">Manage Team</span>
-                                            </a>
-                                        </li>
-                                        <li class="nk-menu-item">
-                                            <a href="html/subscription/downloads.html" class="nk-menu-link">
-                                                <span class="nk-menu-icon"><em class="icon ni ni-download-cloud"></em></span>
-                                                <span class="nk-menu-text">Download</span>
-                                            </a>
-                                        </li>
-                                        <li class="nk-menu-item">
-                                            <a href="html/subscription/sociedad-administradores.html" class="nk-menu-link">
-                                                <span class="nk-menu-icon"><em class="icon ni ni-account-setting"></em></span>
-                                                <span class="nk-menu-text">Account Setting</span>
-                                            </a>
-                                        </li>
-                                        <li class="nk-menu-heading">
-                                            <h6 class="overline-title">See Others</h6>
-                                        </li>
-                                        <li class="nk-menu-item">
-                                            <a href="#" class="nk-menu-link">
-                                                <span class="nk-menu-icon"><em class="icon ni ni-files"></em></span>
-                                                <span class="nk-menu-text">Pre-Built Pages</span>
-                                            </a>
-                                            <ul class="nk-menu-sub">
-                                                <li class="nk-menu-item"><a href="html/subscription/pricing.html" class="nk-menu-link"><span class="nk-menu-text">Pricing</span></a></li>
-                                                <li class="nk-menu-item"><a href="html/subscription/invoices.html" class="nk-menu-link"><span class="nk-menu-text">Invoices <span class="count">(2)</span></span></a></li>
-                                                <li class="nk-menu-item"><a href="html/subscription/tickets.html" class="nk-menu-link"><span class="nk-menu-text">Tickets <span class="count">(5)</span></span></a></li>
-                                                <li class="nk-menu-item"><a href="html/subscription/subscriptions-detail.html" class="nk-menu-link"><span class="nk-menu-text">Subscription Details</span></a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="nk-menu-heading">
-                                            <h6 class="overline-title">Return To</h6>
-                                        </li>
-                                        <li class="nk-menu-item">
-                                            <a href="html/index.html" class="nk-menu-link">
-                                                <span class="nk-menu-icon"><em class="icon ni ni-dashlite"></em></span>
-                                                <span class="nk-menu-text">Main Dashboard</span>
-                                            </a>
-                                        </li>
-                                        <li class="nk-menu-item">
-                                            <a href="html/components.html" class="nk-menu-link">
-                                                <span class="nk-menu-icon"><em class="icon ni ni-layers"></em></span>
-                                                <span class="nk-menu-text">All Components</span>
+                                                <span class="nk-menu-text">Historial de Pagos</span>
                                             </a>
                                         </li>
                                     </ul>
@@ -236,23 +233,33 @@
                                     <ul class="nk-menu nk-menu-sm">
                                         <!-- Menu -->
                                         <li class="nk-menu-heading">
-                                            <span>Help Center</span>
+                                            <span>Cuenta</span>
                                         </li>
-                                        <li class="nk-menu-item">
-                                            <a href="html/subscription/faqs.html" class="nk-menu-link">
-                                                <span class="nk-menu-text">FAQs</span>
+										<li class="nk-menu-item">
+                                            <a href="html/perfil-mis-datos.html" class="nk-menu-link">
+                                                <span class="nk-menu-icon"><em class="icon ni ni-user-round"></em></span>
+                                                <span class="nk-menu-text">Mis datos</span>
                                             </a>
                                         </li>
                                         <li class="nk-menu-item">
-                                            <a href="html/subscription/contacto.html" class="nk-menu-link">
-                                                <span class="nk-menu-text">Contact</span>
+                                            <a href="html/subscription/suscripcion-dashboard.html" class="nk-menu-link">
+                                                <span class="nk-menu-icon"><em class="icon ni ni-report-profit"></em></span>
+                                                <span class="nk-menu-text">Suscripción</span>
                                             </a>
                                         </li>
                                         <li class="nk-menu-item">
-                                            <a href="html/subscription/support.html" class="nk-menu-link">
-                                                <span class="nk-menu-text">Support</span>
+                                            <a href="html/pages/contacto.html" class="nk-menu-link">
+                                                <span class="nk-menu-icon"><em class="icon ni ni-external"></em></span>
+												<span class="nk-menu-text">Contactar</span>
                                             </a>
                                         </li>
+                                        <li class="nk-menu-item">
+                                            <a href="html/soporte.html" class="nk-menu-link">
+                                                <span class="nk-menu-icon"><em class="icon ni ni-info"></em></span>
+												<span class="nk-menu-text">Ayuda/Soporte</span>
+                                            </a>
+                                        </li>
+
                                     </ul>
                                 </div><!-- .nk-sidebar-menu -->
                                 <div class="nk-aside-close">
@@ -360,7 +367,7 @@
                                                             </div>
                                                         </div>
                                                         <div class="nk-wg1-action">
-                                                            <a href="html/subscription/payments.html" class="link"><span>Payment History</span> <em class="icon ni ni-chevron-right"></em></a>
+                                                            <a href="html/subscription/suscripcion-historial-pagos.html" class="link"><span>Payment History</span> <em class="icon ni ni-chevron-right"></em></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -408,7 +415,7 @@
                                                             <p class="text-soft">Unlimited access with priority support, 99.95% uptime, powerfull features and more...</p>
                                                         </div>
                                                         <div class="nk-block-actions flex-shrink-0">
-                                                            <a href="html/subscription/subscriptions-detail.html" class="btn btn-primary">View Plan</a>
+                                                            <a href="html/subscription/suscripcion-mis-suscripciones-detalles.html" class="btn btn-primary">View Plan</a>
                                                         </div>
                                                     </div>
                                                 </div><!-- .nk-card-inner -->
@@ -465,7 +472,7 @@
                                                 <div class="card-title-group">
                                                     <h6 class="card-title">Payment History</h6>
                                                     <div class="card-action">
-                                                        <a href="html/subscription/payments.html" class="link link-sm">See All <em class="icon ni ni-chevron-right"></em></a>
+                                                        <a href="html/subscription/suscripcion-historial-pagos.html" class="link link-sm">See All <em class="icon ni ni-chevron-right"></em></a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -562,12 +569,12 @@
                                 <div class="nk-footer">
                                     <div class="container wide-xl">
                                         <div class="nk-footer-wrap g-2">
-                                            <div class="nk-footer-copyright"> &copy; 2020 DashLite. Template by <a href="#">Softnio</a>
+                                            <div class="nk-footer-copyright"> &copy; legal.partner
                                             </div>
                                             <div class="nk-footer-links">
                                                 <ul class="nav nav-sm">
-                                                    <li class="nav-item"><a class="nav-link" href="#">Terms</a></li>
-                                                    <li class="nav-item"><a class="nav-link" href="#">Privacy</a></li>
+                                                    <li class="nav-item"><a class="nav-link" href="html/pages/aviso-legal.html">Aviso Legal</a></li>
+                                                    <li class="nav-item"><a class="nav-link" href="html/pages/privacidad.html">Privacidad</a></li>
                                                 </ul>
                                             </div>
                                         </div>

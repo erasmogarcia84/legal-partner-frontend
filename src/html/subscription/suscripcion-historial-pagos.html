@@ -2,7 +2,7 @@
 <html lang="zxx" class="js">
 
 <head>
-    <base href="../">
+    <base href="../../">
     <meta charset="utf-8">
     <meta name="author" content="Softnio">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -10,13 +10,13 @@
     <!-- Fav Icon  -->
     <link rel="shortcut icon" href="./images/favicon.png">
     <!-- Page Title  -->
-    <title>Detalles - Centro de Ayuda y Soporte | legal.partner</title>
+    <title>Historial de Pagos - Suscripción | legal.partner</title>
     <!-- StyleSheets  -->
     <link rel="stylesheet" href="./assets/css/dashlite.css?ver=2.2.0">
     <link id="skin-default" rel="stylesheet" href="./assets/css/theme.css?ver=2.2.0">
 </head>
 
-<body class="nk-body bg-white npc-default has-aside ">
+<body class="nk-body bg-white npc-subscription has-aside ">
     <div class="nk-app-root">
         <!-- main @s -->
         <div class="nk-main ">
@@ -26,9 +26,10 @@
                     <div class="container-lg wide-xl">
                         <div class="nk-header-wrap">
                             <div class="nk-header-brand">
-                                <a href="html/index.html" class="logo-link">
+                                <a href="html/subscription/suscripcion-dashboard.html" class="logo-link">
                                     <img class="logo-light logo-img" src="./images/logo.png" srcset="./images/logo2x.png 2x" alt="logo">
                                     <img class="logo-dark logo-img" src="./images/logo-dark.png" srcset="./images/logo-dark2x.png 2x" alt="logo-dark">
+                                    <span class="nio-version">Suscripción</span>
                                 </a>
                             </div><!-- .nk-header-brand -->
                             <div class="nk-header-menu">
@@ -204,106 +205,32 @@
                         <div class="nk-content-inner">
                             <div class="nk-aside" data-content="sideNav" data-toggle-overlay="true" data-toggle-screen="lg" data-toggle-body="true">
                                 <div class="nk-sidebar-menu" data-simplebar>
-                                    <ul class="nk-menu nk-menu-main">
-                                        <li class="nk-menu-item has-sub">
-                                            <a href="#" class="nk-menu-link nk-menu-toggle">
-                                                <span class="nk-menu-text">Participadas</span>
-                                            </a>
-                                            <ul class="nk-menu-sub">
-                                                <li class="nk-menu-item">
-                                                    <a href="html/index.html" class="nk-menu-link"><span class="nk-menu-text">Cuadro de Participadas</span></a>
-                                                </li>
-                                                <li class="nk-menu-item">
-                                                    <a href="html/participadas-listado.html" class="nk-menu-link"><span class="nk-menu-text">Lista de Participadas</span></a>
-                                                </li>
-                                                <li class="nk-menu-item">
-                                                    <a href="html/participadas-kanban.html" class="nk-menu-link"><span class="nk-menu-text">Kanban Board</span><span class="nk-menu-badge badge-warning">New</span></a>
-                                                </li>
-												<li class="nk-menu-item">
-                                                    <a href="html/participadas-kanban.html" class="nk-menu-link"><span class="nk-menu-text">Añadir Sociedad</span><span class="nk-menu-badge badge-warning">New</span></a>
-                                                </li>
-                                            </ul><!-- .nk-menu-sub -->
-                                        </li><!-- .nk-menu-item -->
-										 <li class="nk-menu-item has-sub">
-                                            <a href="#" class="nk-menu-link nk-menu-toggle">
-                                                <span class="nk-menu-text">Administradas</span>
-                                            </a>
-                                            <ul class="nk-menu-sub">
-                                                <li class="nk-menu-item">
-                                                    <a href="html/administradas-cuadro.html" class="nk-menu-link"><span class="nk-menu-text">Cuadro de Administradas</span></a>
-                                                </li>
-                                                <li class="nk-menu-item">
-                                                    <a href="html/administradas-listado.html" class="nk-menu-link"><span class="nk-menu-text">Lista de Administradas</span></a>
-                                                </li>
-                                                <li class="nk-menu-item">
-                                                    <a href="html/administradas-kanban.html" class="nk-menu-link"><span class="nk-menu-text">Kanban Board</span><span class="nk-menu-badge badge-warning">New</span></a>
-                                                </li>
-												<li class="nk-menu-item">
-                                                    <a href="html/participadas-kanban.html" class="nk-menu-link"><span class="nk-menu-text">Añadir Administrada</span><span class="nk-menu-badge badge-warning">New</span></a>
-                                                </li>
-                                            </ul><!-- .nk-menu-sub -->
-                                        </li><!-- .nk-menu-item -->
-                                    </ul><!-- .nk-menu -->
+                                    <!-- Menu -->
                                     <ul class="nk-menu">
                                         <li class="nk-menu-heading">
-                                            <h6 class="overline-title text-primary-alt">Sociedades</h6>
-                                        </li><!-- .nk-menu-heading -->
-										    <li class="nk-menu-item has-sub">
-                                            <a href="#" class="nk-menu-link nk-menu-toggle">
-                                                <span class="nk-menu-icon"><em class="icon ni ni-layers"></em></span>
-                                                <span class="nk-menu-text">Participadas</span>
+                                            <h6 class="overline-title">Suscripción</h6>
+                                        </li>
+                                        <li class="nk-menu-item">
+                                            <a href="html/subscription/suscripcion-dashboard.html" class="nk-menu-link">
+                                                <span class="nk-menu-icon"><em class="icon ni ni-dashboard"></em></span>
+                                                <span class="nk-menu-text">Resumen</span>
                                             </a>
-                                            <ul class="nk-menu-sub">
-                                                <li class="nk-menu-item">
-                                                    <a href="html/participadas-cuadro.html" class="nk-menu-link"><span class="nk-menu-text">Cuadro Participadas </span></a>
-                                                </li>
-                                                <li class="nk-menu-item">
-                                                    <a href="html/participadas-listado.html" class="nk-menu-link"><span class="nk-menu-text">Lista Participadas</span></a>
-                                                </li>
-												<li class="nk-menu-item">
-                                                    <a href="html/participadas-kanban.html" class="nk-menu-link"><span class="nk-menu-text">Kanban Participadas</span></a>
-                                                </li>
-                                            </ul><!-- .nk-menu-sub -->
-											</li><!-- .nk-menu-item -->
-											<li class="nk-menu-item has-sub">
-                                            <a href="#" class="nk-menu-link nk-menu-toggle">
-                                                <span class="nk-menu-icon"><em class="icon ni ni-opt"></em></span>
-                                                <span class="nk-menu-text">Administradas</span>
+                                        </li>
+                                        <li class="nk-menu-item">
+                                            <a href="html/subscription/suscripcion-mis-suscripciones.html" class="nk-menu-link">
+                                                <span class="nk-menu-icon"><em class="icon ni ni-file-text"></em></span>
+                                                <span class="nk-menu-text">Mis Suscripciones</span>
                                             </a>
-                                            <ul class="nk-menu-sub">
-                                                <li class="nk-menu-item">
-                                                    <a href="html/administradas-cuadro.html" class="nk-menu-link"><span class="nk-menu-text">Cuadro Administradas </span></a>
-                                                </li>
-                                                <li class="nk-menu-item">
-                                                    <a href="html/administradas-listado.html" class="nk-menu-link"><span class="nk-menu-text">Lista Administradas</span></a>
-                                                </li>
-												<li class="nk-menu-item">
-                                                    <a href="html/administradas-kanban.html" class="nk-menu-link"><span class="nk-menu-text">Kanban Administradas</span></a>
-                                                </li>
-                                            </ul><!-- .nk-menu-sub -->
-                                        </li><!-- .nk-menu-item -->
-										                                        <li class="nk-menu-item has-sub">
-                                            <a href="#" class="nk-menu-link nk-menu-toggle">
-                                                <span class="nk-menu-icon"><em class="icon ni ni-exchange"></em></span>
-                                                <span class="nk-menu-text">Transacciones</span>
+                                        </li>
+                                        <li class="nk-menu-item">
+                                            <a href="html/subscription/suscripcion-historial-pagos.html" class="nk-menu-link">
+                                                <span class="nk-menu-icon"><em class="icon ni ni-report-profit"></em></span>
+                                                <span class="nk-menu-text">Historial de Pagos</span>
                                             </a>
-                                            <ul class="nk-menu-sub">
-                                                <li class="nk-menu-item">
-                                                    <a href="html/suscripcion-historial-pagos.html" class="nk-menu-link"><span class="nk-menu-text">Listado Transacciones</span></a>
-                                                </li>
-                                            </ul><!-- .nk-menu-sub -->
-                                        </li><!-- .nk-menu-item -->
-
-                                        <li class="nk-menu-heading">
-                                            <h6 class="overline-title text-primary-alt"></h6>
-                                        </li><!-- .nk-menu-heading -->
-                                       <li class="nk-menu-heading">
-                                            <h6 class="overline-title text-primary-alt"></h6>
-                                        </li><!-- .nk-menu-heading -->
-										<li class="nk-menu-heading">
-                                            <h6 class="overline-title text-primary-alt"></h6>
-                                        </li><!-- .nk-menu-heading -->
-										<ul class="nk-menu nk-menu-sm">
+                                        </li>
+                                    </ul>
+                                    <!-- Menu -->
+                                    <ul class="nk-menu nk-menu-sm">
                                         <!-- Menu -->
                                         <li class="nk-menu-heading">
                                             <span>Cuenta</span>
@@ -332,9 +259,8 @@
 												<span class="nk-menu-text">Ayuda/Soporte</span>
                                             </a>
                                         </li>
+
                                     </ul>
-									
-                                    </ul><!-- .nk-menu -->
                                 </div><!-- .nk-sidebar-menu -->
                                 <div class="nk-aside-close">
                                     <a href="#" class="toggle" data-target="sideNav"><em class="icon ni ni-cross"></em></a>
@@ -343,61 +269,211 @@
                             <div class="nk-content-body">
                                 <div class="nk-content-wrap">
                                     <div class="nk-block-head nk-block-head-lg">
-                                        <div class="nk-block-head-sub"><a class="back-to" href="html/soporte-listado.html"><em class="icon ni ni-arrow-left"></em><span>Temas Generales</span></a></div>
+                                        <div class="nk-block-head-sub"><span>Account Billing</span></div>
                                         <div class="nk-block-between-md g-4">
                                             <div class="nk-block-head-content">
-                                                <h2 class="nk-block-title fw-normal">How to enable Two-factor authentication?</h2>
+                                                <h2 class="nk-block-title fw-normal">Payment History</h2>
                                                 <div class="nk-block-des">
-                                                    <p>You can easily enable 2FA security on your account from Profile > Settings tab!</p>
+                                                    <p>Here is your payment history of account.</p>
                                                 </div>
+                                            </div>
+                                            <div class="nk-block-head-content">
+                                                <ul class="nk-block-tools gx-3">
+                                                    <li><a href="html/subscription/invoices.html" class="btn btn-white btn-dim btn-outline-primary"><em class="icon ni ni-reports"></em><span><span class="d-none d-sm-inline-block">Get</span> Invoice</span></a></li>
+                                                </ul>
                                             </div>
                                         </div>
                                     </div><!-- .nk-block-head -->
                                     <div class="nk-block">
-                                        <div class="support-topic-details card card-bordered">
-                                            <div class="card-inner">
-                                                <div class="entry">
-                                                    <h3>Enable 2FA Authentication</h3>
-                                                    <h5>What is two-factor authentication?</h5>
-                                                    <p>Two-factor authentication is an extra layer of security that helps to protect your Envato account. When you have two-factor authentication on your account you will be asked to enter an authentication code in addition to your username and password when logging in.</p>
-                                                    <h5>How it work</h5>
-                                                    <p>Each time you log into your Dashlite account you will need to enter your username and password plus an authentication code. You will need to access your authentication code from a mobile app like Google Authenticator. These apps generate time-based codes that are only valid for a small period of time.</p>
-                                                    <h5>Two-factor authentication enable processs</h5>
-                                                    <p>Two-factor authentication enable process is given bellow:</p>
-                                                    <img src="./images/gfx/support.jpg" alt="">
-                                                    <p>By the given step you can enable Two-factor authentication easily in your Dashlite account.</p>
-                                                </div><!-- .entry -->
-                                                <div class="support-topic-meta">
-                                                    <div class="support-topic-author">
-                                                        <ul class="author-list is-grouped">
-                                                            <li class="updated"><span class="text-soft fs-12px">Last updated 2 months ago</span></li>
-                                                            <li data-toggle="tooltip" title="And 2 more"><span class="user-avatar bg-light text-dark">2</span></li>
-                                                            <li data-toggle="tooltip" title="Iliash Hossain"><a href="#"><span class="user-avatar bg-primary">IH</span></a></li>
-                                                            <li data-toggle="tooltip" title="Abu Bin Ishtiyak"><a href="#"><span class="user-avatar bg-success">AB</span></a></li>
-                                                        </ul>
-                                                    </div>
-                                                    <div class="support-topic-react">
-                                                        <ul class="react-list">
-                                                            <li class="title"><span>Was this page helpful?</span></li>
-                                                            <li class="react-good"><a title="Good" data-toggle="tooltip" href="#"><em class="icon ni ni-happyf-fill"></em></a></li>
-                                                            <li class="react-ok"><a title="Fair" data-toggle="tooltip" href="#"><em class="icon ni ni-meh-fill"></em></a></li>
-                                                            <li class="react-bad"><a title="Bad" data-toggle="tooltip" href="#"><em class="icon ni ni-sad-fill"></em></a></li>
-                                                        </ul>
-                                                    </div>
-                                                </div><!-- .support-topic-meta -->
-                                            </div>
+                                        <div class="card card-bordered">
+                                            <table class="table table-tranx table-billing">
+                                                <thead>
+                                                    <tr class="tb-tnx-head">
+                                                        <th class="tb-tnx-id"><span class="">#</span></th>
+                                                        <th class="tb-tnx-info">
+                                                            <span class="tb-tnx-desc d-none d-sm-inline-block">
+                                                                <span>Bill For</span>
+                                                            </span>
+                                                            <span class="tb-tnx-date d-md-inline-block d-none">
+                                                                <span class="d-md-none">Date</span>
+                                                                <span class="d-none d-md-block">
+                                                                    <span>Issue Date</span>
+                                                                    <span>Due Date</span>
+                                                                </span>
+                                                            </span>
+                                                        </th>
+                                                        <th class="tb-tnx-amount">
+                                                            <span class="tb-tnx-total">Total</span>
+                                                            <span class="tb-tnx-status d-none d-md-inline-block">Status</span>
+                                                        </th>
+                                                    </tr><!-- .tb-tnx-head -->
+                                                </thead>
+                                                <tbody>
+                                                    <tr class="tb-tnx-item">
+                                                        <td class="tb-tnx-id">
+                                                            <a href="#"><span>4947</span></a>
+                                                        </td>
+                                                        <td class="tb-tnx-info">
+                                                            <div class="tb-tnx-desc">
+                                                                <span class="title">Enterprize Year Subscrition</span>
+                                                            </div>
+                                                            <div class="tb-tnx-date">
+                                                                <span class="date">10-05-2019</span>
+                                                                <span class="date">10-13-2019</span>
+                                                            </div>
+                                                        </td>
+                                                        <td class="tb-tnx-amount">
+                                                            <div class="tb-tnx-total">
+                                                                <span class="amount">$599.00</span>
+                                                            </div>
+                                                            <div class="tb-tnx-status">
+                                                                <span class="badge badge-dot badge-warning">Due</span>
+                                                            </div>
+                                                        </td>
+                                                    </tr><!-- .tb-tnx-item -->
+                                                    <tr class="tb-tnx-item">
+                                                        <td class="tb-tnx-id">
+                                                            <a href="#"><span>4904</span></a>
+                                                        </td>
+                                                        <td class="tb-tnx-info">
+                                                            <div class="tb-tnx-desc">
+                                                                <span class="title">Maintenance Year Subscription</span>
+                                                            </div>
+                                                            <div class="tb-tnx-date">
+                                                                <span class="date">06-19-2019</span>
+                                                                <span class="date">06-26-2019</span>
+                                                            </div>
+                                                        </td>
+                                                        <td class="tb-tnx-amount">
+                                                            <div class="tb-tnx-total">
+                                                                <span class="amount">$99.00</span>
+                                                            </div>
+                                                            <div class="tb-tnx-status"><span class="badge badge-dot badge-success">Paid</span></div>
+                                                        </td>
+                                                    </tr><!-- .tb-tnx-item -->
+                                                    <tr class="tb-tnx-item">
+                                                        <td class="tb-tnx-id">
+                                                            <a href="#"><span>4829</span></a>
+                                                        </td>
+                                                        <td class="tb-tnx-info">
+                                                            <div class="tb-tnx-desc">
+                                                                <span class="title">Enterprize Year Subscrition</span>
+                                                            </div>
+                                                            <div class="tb-tnx-date">
+                                                                <span class="date">10-04-2018</span>
+                                                                <span class="date">10-12-2018</span>
+                                                            </div>
+                                                        </td>
+                                                        <td class="tb-tnx-amount">
+                                                            <div class="tb-tnx-total">
+                                                                <span class="amount">$599.00</span>
+                                                            </div>
+                                                            <div class="tb-tnx-status"><span class="badge badge-dot badge-success">Paid</span></div>
+                                                        </td>
+                                                    </tr><!-- .tb-tnx-item -->
+                                                    <tr class="tb-tnx-item">
+                                                        <td class="tb-tnx-id">
+                                                            <a href="#"><span>4830</span></a>
+                                                        </td>
+                                                        <td class="tb-tnx-info">
+                                                            <div class="tb-tnx-desc">
+                                                                <span class="title">Enterprize Anniversary Subscription</span>
+                                                            </div>
+                                                            <div class="tb-tnx-date">
+                                                                <span class="date">12-04-2018</span>
+                                                                <span class="date">14-12-2018</span>
+                                                            </div>
+                                                        </td>
+                                                        <td class="tb-tnx-amount">
+                                                            <div class="tb-tnx-total">
+                                                                <span class="amount">$399.00</span>
+                                                            </div>
+                                                            <div class="tb-tnx-status"><span class="badge badge-dot badge-success">Paid</span></div>
+                                                        </td>
+                                                    </tr><!-- .tb-tnx-item -->
+                                                    <tr class="tb-tnx-item">
+                                                        <td class="tb-tnx-id">
+                                                            <a href="#"><span>4840</span></a>
+                                                        </td>
+                                                        <td class="tb-tnx-info">
+                                                            <div class="tb-tnx-desc">
+                                                                <span class="title">Enterprize Coverage Subscription</span>
+                                                            </div>
+                                                            <div class="tb-tnx-date">
+                                                                <span class="date">12-08-2018</span>
+                                                                <span class="date">13-22-2018</span>
+                                                            </div>
+                                                        </td>
+                                                        <td class="tb-tnx-amount">
+                                                            <div class="tb-tnx-total">
+                                                                <span class="amount">$99.00</span>
+                                                            </div>
+                                                            <div class="tb-tnx-status"><span class="badge badge-dot badge-danger">Cancel</span></div>
+                                                        </td>
+                                                    </tr><!-- .tb-tnx-item -->
+                                                    <tr class="tb-tnx-item">
+                                                        <td class="tb-tnx-id">
+                                                            <a href="#"><span>4844</span></a>
+                                                        </td>
+                                                        <td class="tb-tnx-info">
+                                                            <div class="tb-tnx-desc">
+                                                                <span class="title">Manual Subscription Adjustments</span>
+                                                            </div>
+                                                            <div class="tb-tnx-date">
+                                                                <span class="date">12-08-2018</span>
+                                                                <span class="date">13-22-2018</span>
+                                                            </div>
+                                                        </td>
+                                                        <td class="tb-tnx-amount">
+                                                            <div class="tb-tnx-total">
+                                                                <span class="amount">$99.00</span>
+                                                            </div>
+                                                            <div class="tb-tnx-status"><span class="badge badge-dot badge-success">Paid</span></div>
+                                                        </td>
+                                                    </tr><!-- .tb-tnx-item -->
+                                                    <tr class="tb-tnx-item">
+                                                        <td class="tb-tnx-id">
+                                                            <a href="#"><span>4847</span></a>
+                                                        </td>
+                                                        <td class="tb-tnx-info">
+                                                            <div class="tb-tnx-desc">
+                                                                <span class="title">Automatic Subscription Adjustments</span>
+                                                            </div>
+                                                            <div class="tb-tnx-date">
+                                                                <span class="date">12-08-2018</span>
+                                                                <span class="date">13-22-2018</span>
+                                                            </div>
+                                                        </td>
+                                                        <td class="tb-tnx-amount">
+                                                            <div class="tb-tnx-total">
+                                                                <span class="amount">$99.00</span>
+                                                            </div>
+                                                            <div class="tb-tnx-status"><span class="badge badge-dot badge-success">Paid</span></div>
+                                                        </td>
+                                                    </tr><!-- .tb-tnx-item -->
+                                                    <tr class="tb-tnx-item">
+                                                        <td class="tb-tnx-id">
+                                                            <a href="#"><span>4748</span></a>
+                                                        </td>
+                                                        <td class="tb-tnx-info">
+                                                            <div class="tb-tnx-desc">
+                                                                <span class="title">Tiered Subscription</span>
+                                                            </div>
+                                                            <div class="tb-tnx-date">
+                                                                <span class="date">12-08-2018</span>
+                                                                <span class="date">13-22-2018</span>
+                                                            </div>
+                                                        </td>
+                                                        <td class="tb-tnx-amount">
+                                                            <div class="tb-tnx-total">
+                                                                <span class="amount">$99.00</span>
+                                                            </div>
+                                                            <div class="tb-tnx-status"><span class="badge badge-dot badge-success">Paid</span></div>
+                                                        </td>
+                                                    </tr><!-- .tb-tnx-item -->
+                                                </tbody>
+                                            </table>
                                         </div>
-                                        <div class="support-topic-more card card-bordered">
-                                            <a class="support-topic-block card-inner" href="#">
-                                                <div class="support-topic-context">
-                                                    <div class="support-topic-title-sub">Next - General</div>
-                                                    <h5 class="support-topic-title title">Is my information secure?</h5>
-                                                </div>
-                                                <div class="support-topic-action">
-                                                    <em class="icon ni ni-chevron-right"></em>
-                                                </div>
-                                            </a>
-                                        </div><!-- .support-topic-more -->
                                     </div><!-- .nk-block -->
                                 </div>
                                 <!-- footer @s -->
